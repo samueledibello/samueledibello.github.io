@@ -1,7 +1,13 @@
+body {
+  background-color: rgb(25, 25, 25);
+  opacity: 0.9;
+  background-image: url("../immages/background-dark.png");
+}
+
 #nome {
-  color: yellowgreen;
+  color: rgb(154, 205, 50, 0.9);
   background-color: black;
-  border: solid yellowgreen;
+  border: solid rgb(154, 205, 50, 0.9);
   text-align: center;
   font: 2em Arial, sans-serif;
 }
