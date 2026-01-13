@@ -11,9 +11,10 @@ body {
   border-style: none none none solid;
   border-width: 5px;
   border-color: rgb(245, 245, 245);
-  opacity: 0.8;
   background-color: rgb(245, 245, 245);
+  margin-right: 65%;
   background-image: url("../immages/background-dark3.png");
+  opacity: 0.8;
   text-align: center;
 }
 
