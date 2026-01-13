@@ -1,18 +1,22 @@
 body {
-  background-color: rgb(25, 25, 25);
   background-image: url("../immages/background-dark.png");
   background-repeat: repeat;
   background-attachment: scroll;
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 0.4px;
+  border-radius: 6px;
+  padding: 0.8%;
   font: 1em "Segoe UI";
 }
 
 #nome {
-  color: rgb(214, 11, 11);
+  color: rgb(245, 245, 245);
   border-style: none none none solid;
-  border-width: 5px;
+  border-width: 0.5rem;
   border-color: rgb(245, 245, 245);
-  background-color: rgb(245, 245, 245);
   margin-right: 65%;
+  padding: 1%;
   background-image: url("../immages/background-dark3.png");
   opacity: 0.8;
   text-align: center;
