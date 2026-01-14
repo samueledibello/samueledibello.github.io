@@ -46,11 +46,14 @@ body {
 
 .nav-links a {
   color: whitesmoke;
+  background-color: rgb(25, 45, 95);
   text-decoration: none;
   font-size: 0.9rem;
   border-style: groove;
   border-width: thin;
   border-color: rgb(25, 45, 95);
+  border-radius: 0.275rem;
+  padding: 0.3rem;
 }
 
 .nav-link-page {
@@ -149,7 +152,6 @@ footer {
   color: white;
   text-align: center;
   padding: 1.25rem;
-  margin-top: 2.5rem;
 }
 
 /* RESPONSIVE */
