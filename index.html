@@ -5,29 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuele Di Bello | Sito Personale</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="testa">
-        <h1 id="nome">Samuele Di Bello</h1>
-        <div class="contatti">
-            <h2>Contatti</h2>
-            <p>samuele.dibello@gmail.com</p>
-            <p>Potenza 85100</p>
-        </div>
-        <div class="dati">
+
+    <header class="navbar">
+        <h1 class="logo">Samuele Di Bello</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Chi sono</a></li>
+                <li><a href="#capacita">Capacità e Competenze</a></li>
+                <li><a href="#dati">Dati Personali</a></li>
+                <li><a href="#contacts">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="allSect">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Benvenuto nel mio sito!</h2>
+                <p>Sono Samuele, appassionato di tecnologia e sviluppo.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Chi sono</h2>
+            <p>Studente del Corso di Scienze e Tecnologie Informatiche dell'Università degli Studi della Basilicata.</p>
+        </section>
+
+        <section id="capacita" class="section">
+            <h2>Capacità e Competenze</h2>
+            <ul>
+                <li>Programmazione in Java</li>
+                <li>Sviluppo Web (HTML, CSS, JavaScript)</li>
+                <li>Uso dei principali strumenti di sviluppo</li>
+            </ul>
+        </section>
+
+        <section id="dati" class="section">
             <h2>Dati Personali</h2>
-            <p>Data di Nascita: 29/08/2000</p>
-            <p>Luogo di Nascita: Potenza (PZ)</p>
-            <p>Patenti: AM, B</p>
-        </div>
-        <img id="photo" src="../immages/profile-dark.png" alt="Foto">
+            <ul>
+                <li>Data di nascita: 10/02/2004</li>
+                <li>Luogo di nascita: Potenza</li>
+            </ul>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Contatti</h2>
+            <p>Email: samuele.dibello00@email.com</p>
+            <p>Residenza: Potenza 85100</p>
+        </section>
     </div>
-    <div class="nav-bar">
-        <a href="/index.html">Istruzione e Formazione</a>
-        <a href="/index.html">Esperienze Professionali</a>
-    </div>
+
+    <footer>
+        <p>© 2026 Samuele Di Bello</p>
+    </footer>
 
 </body>
 
