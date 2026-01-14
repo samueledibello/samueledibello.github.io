@@ -93,44 +93,6 @@ body {
   list-style: none;
 }
 
-.instruction-item {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  margin: 1.5rem 0;
-  text-align: left;
-}
-
-.exam-list,
-.tech-list {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-}
-
-.exam-list li,
-.tech-list li {
-  margin: 0.5rem 0;
-}
-
-.experience-item {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  margin: 1.5rem 0;
-  text-align: left;
-}
-
-.activity-list {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-}
-
-.activity-list li {
-  margin: 0.5rem 0;
-}
-
 .cards {
   display: flex;
   justify-content: center;
