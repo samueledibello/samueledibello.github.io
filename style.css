@@ -41,7 +41,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.25rem;
+  gap: 2.5rem;
 }
 
 .nav-links a {
@@ -51,9 +51,9 @@ body {
   font-size: 0.9rem;
   border-style: groove;
   border-width: thin;
-  border-color: rgb(25, 45, 95);
+  border-color: rgb(55, 75, 125);
   border-radius: 0.275rem;
-  padding: 0.3rem;
+  padding: 0.3rem 1.1rem;
 }
 
 .nav-link-page {
