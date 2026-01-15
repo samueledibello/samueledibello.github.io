@@ -17,3 +17,23 @@
 .tech-list li {
   margin: 0.5rem 0;
 }
+
+#certificate {
+  display: flex;
+  justify-content: center;
+} 
+
+#certificate button{
+  background-color: rgb(25, 45, 95);
+  color: whitesmoke;
+  border-style: groove;
+  border-width: thin;
+  border-color: rgb(55, 75, 125);
+  border-radius: 0.275rem;
+  padding: 0.3rem 1.1rem;
+}
+
+#certificate button:hover {
+  background: #059669;
+  cursor: pointer;
+}

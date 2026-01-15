@@ -93,21 +93,6 @@ body {
   list-style: none;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 1.25rem;
-  width: 15.625rem;
-  border-radius: 0.625rem;
-  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
-}
-
 /* FOOTER */
 footer {
   background: #222;
@@ -160,10 +145,5 @@ footer {
   .section li {
     font-size: 0.95rem;
     line-height: 1.6;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 15.625rem;
   }
 }
